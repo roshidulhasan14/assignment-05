@@ -57,9 +57,98 @@
     <p class="max-w-2xl mt-2 sm:text-sm">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
   </div>
 
+  <!--grid section-->
+
+  <section id="service-container" class="w-11/12 mx-auto py-10 grid grid-cols-1 lg:grid-cols-12">
+    
+    <section id="service-box" class="col-span-9">
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+
+            <div class="bg-white rounded-xl shadow p-4 w-64 flex flex-col gap-3">
+            
+                <div class="flex justify-between items-center">
+                    <div class="w-12 h-12 flex items-center justify-center rounded-lg bg-red-100">
+                      <img src="./assets/emergency.png" class="" alt="">
+                    </div>
+                    <button class="text-gray-400 hover:text-red-500"><i class="fa-regular fa-heart"></i></button>
+                </div>
+
+                
+                <div>
+                  <h2 class="font-semibold text-gray-800">National Emergency Number</h2>
+                  <p class="text-sm text-gray-500">National Emergency</p>
+                  <p class="text-2xl font-bold text-gray-900">999</p>
+                </div>
+
+                <span class="px-2 py-1 text-xs bg-gray-100 text-gray-600 rounded-full w-max">All</span>
+
+                    
+                    <div class="flex gap-2 mt-2">
+                        <button onclick="copyNumber('999')" class="flex-1 border rounded-lg py-2 text-sm text-gray-600 hover:bg-gray-50"><i class="fa-regular fa-copy"></i> Copy</button>
+                        <button onclick="callNumber('National Emergency Number','999')" class="flex-1 bg-green-600 text-white rounded-lg py-2 text-sm hover:bg-green-700"><i class="fa-solid fa-phone"></i> Call</button>
+                    </div>
+            </div>
+
+            <div class="bg-white rounded-xl shadow p-4 w-64 flex flex-col gap-3">
+            
+        
+                <div class="flex justify-between items-center">
+                    <div class="w-12 h-12 flex items-center justify-center rounded-lg bg-blue-100">
+                      <img src="./assets/police.png" class="" alt="">
+                    </div>
+                    <button class="text-gray-400 hover:text-red-500"><i class="fa-regular fa-heart"></i></button>
+                </div>
+
+            
+                <div>
+                    <h2 class="font-semibold text-gray-800">Police Helpline Number</h2>
+                    <p class="text-sm text-gray-500">Police</p>
+                    <p class="text-2xl font-bold text-gray-900">999</p>
+                </div>
+
+                
+                <span class="px-3 py-1 text-xs bg-gray-100 text-gray-600 rounded-full w-max">Police</span>
+
+                    
+                  <div class="flex gap-2 mt-2">
+                    <button onclick="copyNumber('999')" class="flex-1 border rounded-lg py-2 text-sm text-gray-600 hover:bg-gray-50"><i class="fa-regular fa-copy"></i>Copy</button>
+                    <button onclick="callNumber('Police Helpline Number','999')" class="flex-1 bg-green-600 text-white rounded-lg py-2 text-sm hover:bg-green-700"><i class="fa-solid fa-phone"></i> Call</button>
+                  </div>
+
+              </div>
+
+              <div class="bg-white rounded-xl shadow p-4 w-64 flex flex-col gap-3">
+                
+                  <div class="flex justify-between items-center">
+                    <div class="w-12 h-12 flex items-center justify-center rounded-lg bg-red-100">
+                      <img src="./assets/fire-service.png" class="" alt="">
+                    </div>
+                      <button class="text-gray-400 hover:text-red-500"><i class="fa-regular fa-heart"></i></button>
+                  </div>
+
+                
+                  <div>
+                    <h2 class="font-semibold text-gray-800">Fire Service Number</h2>
+                    <p class="text-sm text-gray-500">Fire Service</p>
+                    <p class="text-2xl font-bold text-gray-900">999</p>
+                  </div>
+
+                
+                  <span class="px-2 py-1 text-xs bg-gray-100 text-gray-600 rounded-full w-max">All</span>
+
+                    
+                  <div class="flex gap-2 mt-2">
+                    <button onClick="copyNumber('999')" class="flex-1 border rounded-lg py-2 text-sm text-gray-600 hover:bg-gray-50"><i class="fa-regular fa-copy"></i> Copy</button>
+                    <button onClick="callNumber('National Emergency Number','999')" class="flex-1 bg-green-600 text-white rounded-lg py-2 text-sm hover:bg-green-700"><i class="fa-solid fa-phone"></i> Call</button>
+                  </div>
+              </div>
+
+        </div>
+
  
 
-    
+  </section>  
   <script src="./script/index.js"></script>  
 </body>
 </html>
